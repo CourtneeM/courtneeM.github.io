@@ -1,0 +1,33 @@
+header {
+  height: 30vh;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border: 6px solid #aaa;
+  border-radius: 50%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #aaa;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.project {
+  margin: 5px;
+  border: 1px solid #000;
+  width: 400px;
+  height: 400px;
+}
+
+.project:hover {
+  
+}
